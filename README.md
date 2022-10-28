@@ -18,6 +18,10 @@ Considering the task and dataset natures where we need to predict price against 
 
 The customer, a real estate agency, wants to have a tool for home price prediction based on different parameters, like Living Area, Number of Bedrooms, or house conditions. 
 
+The goals are:
+- Reveal factors that influence home prices the most;
+- Provide advice to homeowners on how home RENOVATION affects the price.
+
 ## Methods
 
 For the analysis, we used OLS Linear Regression method. The following libraries have also been used. 
@@ -40,7 +44,25 @@ It was also found that:
 - Number of bathrooms significantly predicted price (β = 1.069e+04, p < .000)
 - Number of bedrooms significantly predicted price (β = -4.638e+04, p < .000).
 
-We suggest further investigation how features as 'Grade' and 'View' affect home prices.
+
+It was found that every additional square foot increases the home price by $272.51 
+
+It was also found that:
+
+- Every additional bathroom increases the home price by $10,690.00  
+- Every additional bedroom decreases the home price by $46,380.00 
+
+## Business recommendations.
+
+Based on the modeling results, we recommend our customers:
+
+- Increasing Living Aera (by, for example, adding a second floor, our outdoor expansion);
+- Adding more bathrooms;
+- Decreasing the number of bedrooms.
+
+## Further investigation:
+
+We suggest further investigation of how features such as 'Grade' and 'View' affect home prices.
 
 
 
